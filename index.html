@@ -14,24 +14,24 @@
 </head>
 <body>
   <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <a class="navbar-brand" href="#projects">DAN TRAN</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link mr-4" href="#intro">About<span class="sr-only">(current)</span></a>
+              <li class="nav-item active ml-auto">
+                <a class="nav-link mr-2" href="#intro">About<span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link mr-4" href="#projects">Projects</a>
+              <li class="nav-item active ml-auto">
+                <a class="nav-link mr-2" href="#projects">Projects</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link mr-4" href="#resume">Resume</a>
+              <li class="nav-item active ml-auto">
+                <a class="nav-link mr-2" href="#resume">Resume</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link mr-4" href="#footer">Contact</a>
+              <li class="nav-item active ml-auto">
+                <a class="nav-link mr-2" href="#footer">Contact</a>
               </li>
         </div>
       </nav>
@@ -60,54 +60,51 @@
 
     <!-- My Projects  -->
     <section id="projects" class="projects container-fluid">
-        <h1 class="projects__header">My projects</h1>
-        <p class="projects__subheader">(more on the way!)</p>
-        <div class="card-deck">
-            <div class="card">
-              <img src="/images/Weights.jpg" class="card-img-top" alt="Training App">
-              <div class="card-body">
-                <h5 class="card-title">Trainer to Client Programming</h5>
-                <p class="card-text projects__description">Made with:</p>
-              <div class="row">
-                <div class="col">
-                  <i class="fab fa-html5 fa-3x"></i>
-                  <br>
-                  HTML
-                </div>
-                <div class="col">
-                  <i class="fab fa-css3-alt fa-3x"></i>
-                  <br>
-                  CSS
-                </div>
-                <div class="col">
-                  <i class="fab fa-js-square fa-3x"></i>
-                  Javascript
-                </div>
-              </div>
-              </div>
-            </div>
-            <div class="card">
-              <img src="/images/Covid-19.JPG" class="card-img-top" alt="Covid-19 App">
-              <div class="card-body">
-                <h5 class="card-title">Covid-19 Case Tracker</h5>
-                <p class="card-text projects__description">Made with:</p>
-                <div class="row">
-                  <div class="col">
-                    <i class="fab fa-react fa-3x"></i>
-                    <br>
-                    Reactjs
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h1 class="projects__header">My projects</h1>
+      <p class="projects__subheader">(more on the way!)</p>
+      
+      <div class="container projects__container">
+        <hr class="mt-2 mb-5">
+        
+        <div class="row text-center"> 
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="projects__overlay-container">
+              <img class="img-fluid img-thumbnail" src="/images/resized-react-weather-app.JPG" alt="react-weather-app">
+              <div class="projects__overlay">
+                <i class="fas fa-search-plus projects__overlay-icon"></i>
+                <a href="https://github.com/dtran5/react-weather-app" class="projects__overlay-title">Weather App
+                </a>
               </div>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="projects__overlay-container">
+              <img class="img-fluid img-thumbnail" src="/images/resized-Covid-app.jpg" alt="covid-19 app">
+              <div class="projects__overlay">
+                <i class="fas fa-search-plus projects__overlay-icon"></i>
+                <a href="https://github.com/dtran5/covid19-cases" class="projects__overlay-title">Covid-19 App
+                </a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <div class="projects__overlay-container">
+              <img class="img-fluid img-thumbnail" src="/images/Resized-weights.jpg" alt="weights app">
+              <div class="projects__overlay">
+                <i class="fas fa-search-plus projects__overlay-icon"></i>
+                <a href="#" class="projects__overlay-title">Training App
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ------- New Projects will go here -------
+        <div class="row text-center">
+
+        </div> -->
+
+      </div>
     </section>
 
     <!-- Resume -->
