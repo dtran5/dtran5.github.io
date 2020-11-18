@@ -173,6 +173,76 @@
   font-size: 2.5rem;
 }
 
+.projects__overlay-icon--html {
+  top: 87%;
+  left: 35%;
+  -webkit-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.projects__overlay-icon--css {
+  top: 87%;
+  left: 45%;
+  -webkit-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.projects__overlay-icon--javascript {
+  top: 87%;
+  left: 55%;
+  -webkit-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.projects__overlay-icon--react {
+  top: 87%;
+  left: 65%;
+  -webkit-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.projects__overlay-icon--html-companis {
+  top: 87%;
+  left: 40%;
+  -webkit-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.projects__overlay-icon--css-companis {
+  top: 87%;
+  left: 50%;
+  -webkit-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.projects__overlay-icon--wordpress-companis {
+  top: 87%;
+  left: 60%;
+  -webkit-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+}
+
 .projects__overlay-title:hover {
   text-decoration: none;
   color: white;
