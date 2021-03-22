@@ -1,132 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/e886248aff.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/e886248aff.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Dan Tran Portfolio</title>
-</head>
-<body>
-  <!-- Navigation Bar -->
+  </head>
+  <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <a class="navbar-brand" href="#projects">DAN TRAN</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active ml-auto">
-                <a class="nav-link mr-2" href="#intro">About<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active ml-auto">
-                <a class="nav-link mr-2" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item active ml-auto">
-                <a class="nav-link mr-2" href="#resume">Resume</a>
-              </li>
-              <li class="nav-item active ml-auto">
-                <a class="nav-link mr-2" href="#footer">Contact</a>
-              </li>
-        </div>
-      </nav>
+      <a class="navbar-brand" href="#projects">DAN TRAN</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active ml-auto">
+            <a class="nav-link mr-2" href="#intro"
+              >About<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active ml-auto">
+            <a class="nav-link mr-2" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item active ml-auto">
+            <a class="nav-link mr-2" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item active ml-auto">
+            <a class="nav-link mr-2" href="#footer">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  <!-- Introduction -->
+    <!-- Introduction -->
     <section id="intro" class="intro">
-        <div class="intro__content">
-            <h1 class="intro__header">Hi, I'm Dan</h1>
-            <p class="intro__description">Web Developer and Lifelong Student</p>
-        </div>
-        <div class="intro__overlay"></div>
+      <div class="intro__content">
+        <h1 class="intro__header">Hi, I'm Dan</h1>
+        <p class="intro__description">Web Developer and Lifelong Student</p>
+      </div>
+      <div class="intro__overlay"></div>
     </section>
-    <section id="about" class="about">
-        <div class="row">
-            <div class="col-md-8 offset-md-2 about__header-container">
-                <h1 class="about__header">About Me</h1>
-            </div>
-            <div class="col-md-8 offset-md-2 about__profile-container">
-                <img class="about__profile-pic" src="/images/profile.jpg" alt="profile picture">
-            </div>
-            <div class="col-md-8 offset-md-2 about__content">
-                <p>Hello! My name is Dan and I am a front-end web developer with a new found passion for coding. As a former strength and conditioning coach with a Master's in Sport Science, my desire to code began a few months prior to the 2020 Covid-19 pandemic. With declining interest and enthusiasm of coaching athletes, I made the decision to pursue web development and make learning to code my priority. The prospect of pursuing a career that allowed me to work in an always rapidly developing field excited me. The opportunity to develop streamlined software while always pushing forward with advancements in technology by learning and obtaining new knowledge presented challenges that I find enjoyable and never monotonous! While the pandemic of 2020 is unfortunate, it provided me an invaluable opportunity to pursue web development with no looking back since! </p>
-            </div>
+
+    <!--About-->
+    <section id="about" class="about d-flex justify-content-center">
+      <!-- <div class="row d-flex justify-content-center"> -->
+      <div class="col-xl-8 col-lg-12 col-md-12">
+        <div class="about__header-container">
+          <h1 class="about__header">About Me</h1>
         </div>
+        <div class="about__profile-container">
+          <img
+            class="about__profile-pic"
+            src="./images/profile.jpg"
+            alt="profile picture"
+          />
+        </div>
+        <div class="about__content">
+          <!-- <p>
+              Hello! My name is Dan and I am a front-end web developer with a
+              new found passion for coding. As a former strength and
+              conditioning coach with a Master's in Sport Science, my desire to
+              code began a few months prior to the 2020 Covid-19 pandemic. With
+              declining interest and enthusiasm of coaching athletes, I made the
+              decision to pursue web development and make learning to code my
+              priority. The prospect of pursuing a career that allowed me to
+              work in an always rapidly developing field excited me. The
+              opportunity to develop streamlined software while always pushing
+              forward with advancements in technology by learning and obtaining
+              new knowledge presented challenges that I find enjoyable and never
+              monotonous! While the pandemic of 2020 is unfortunate, it provided
+              me an invaluable opportunity to pursue web development with no
+              looking back since!
+            </p> -->
+          <p>
+            Hello! My name is Dan, web developer and student of code. As a
+            former strength and conditioning coach with a Master's in Sport
+            Science, I recently developed a curiosity for technology and code
+            prior to the Covid-19 pandemic. Technology has become essential in
+            daily life and my limited understanding of its inner workings drove
+            me to learn more about it. Diving in without previous knowledge
+            started out as overwhelming but by taking it one step at a time,
+            staying consistent, and help from some fellow coders I have been
+            able to build what I believe to be a solid foundation. I was
+            determined to learn and along the way my curiosity turned to genuine
+            enjoyment. I have chosen to forgo coaching and fully embrace
+            learning to code. The process has been a humbling experience but one
+            that I am so excited to continue with. At this point, my only regret
+            has been not learning to code earlier!
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- My Projects  -->
     <section id="projects" class="projects container-fluid">
-      <h1 class="projects__header">My projects</h1>
+      <h1 class="projects__title">My projects</h1>
       <p class="projects__subheader">(more on the way!)</p>
-      
-      <div class="container projects__container">
-        <hr class="mt-2 mb-5">
-        
-        <div class="row text-center"> 
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-            <div class="projects__overlay-container">
-              <img class="img-fluid img-thumbnail" src="/images/Resized-react-weather-app.JPG" alt="react-weather-app">
-              <div class="projects__overlay">
-                <i class="fas fa-arrow-right projects__overlay-icon"></i>
-                <a href="https://github.com/dtran5/react-weather-app" class="projects__overlay-title">Weather App
-                </a>
-                <i class="fab fa-html5 projects__overlay-icon--html"></i>
-                <i class="fab fa-css3-alt projects__overlay-icon--css"></i>
-                <i class="fab fa-js-square projects__overlay-icon--javascript"></i>
-                <i class="fab fa-react projects__overlay-icon--react"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-            <div class="projects__overlay-container">
-              <img class="img-fluid img-thumbnail" src="/images/Resized-Covid-app.jpg" alt="covid-19 app">
-              <div class="projects__overlay">
-                <i class="fas fa-arrow-right projects__overlay-icon"></i>
-                
-                <a href="https://github.com/dtran5/covid19-cases" class="projects__overlay-title">Covid-19 App
-                </a>
-                <i class="fab fa-html5 projects__overlay-icon--html"></i>
-                <i class="fab fa-css3-alt projects__overlay-icon--css"></i>
-                <i class="fab fa-js-square projects__overlay-icon--javascript"></i>
-                <i class="fab fa-react projects__overlay-icon--react"></i>
-              </div>
-            </div>
-            
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-            <div class="projects__overlay-container">
-              <img class="img-fluid img-thumbnail" src="/images/companis-website.JPG" alt="Companis Nonprofit Website">
-              <div class="projects__overlay">
-                <i class="fas fa-arrow-right projects__overlay-icon"></i>
-                <a href="https://test.companis.org/" class="projects__overlay-title">Companis - Nonprofit Website
-                </a>
-                <i class="fab fa-html5 projects__overlay-icon--html-companis"></i>
-                <i class="fab fa-css3-alt projects__overlay-icon--css-companis"></i>
-                <i class="fab fa-wordpress projects__overlay-icon--wordpress-companis"></i>
-              </div>
+      <div class="row text-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <div class="projects__overlay-container">
+            <img
+              class="img-fluid img-thumbnail"
+              src="./images/liftweights-recordworkout-resized.jpg"
+              alt="lift-weights-app"
+            />
+            <div class="projects__overlay">
+              <i class="fas fa-arrow-right projects__overlay-icon"></i>
+              <a
+                href="https://github.com/dtran5/liftweights/"
+                class="projects__overlay-title"
+                >Weight Training App
+              </a>
+              <i class="fab fa-html5 projects__overlay-icon--html"></i>
+              <i class="fab fa-css3-alt projects__overlay-icon--css"></i>
+              <i
+                class="fab fa-js-square projects__overlay-icon--javascript"
+              ></i>
+              <i class="fab fa-react projects__overlay-icon--react"></i>
             </div>
           </div>
         </div>
-        <!-- ------- New Projects will go here -------
-        <div class="row text-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <div class="projects__overlay-container">
+            <img
+              class="img-fluid img-thumbnail"
+              src="./images/Resized-react-weather-app.JPG"
+              alt="react-weather-app"
+            />
+            <div class="projects__overlay">
+              <i class="fas fa-arrow-right projects__overlay-icon"></i>
+              <a
+                href="https://github.com/dtran5/react-weather-app"
+                class="projects__overlay-title"
+                >Weather App
+              </a>
+              <!-- Make icons responsive -->
+              <i class="fab fa-html5 projects__overlay-icon--html"></i>
+              <i class="fab fa-css3-alt projects__overlay-icon--css"></i>
+              <i
+                class="fab fa-js-square projects__overlay-icon--javascript"
+              ></i>
+              <i class="fab fa-react projects__overlay-icon--react"></i>
+            </div>
+          </div>
+        </div>
 
-        </div> -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <div class="projects__overlay-container">
+            <img
+              class="img-fluid img-thumbnail"
+              src="./images/companis-website.JPG"
+              alt="Companis Nonprofit Website"
+            />
+            <div class="projects__overlay">
+              <i class="fas fa-arrow-right projects__overlay-icon"></i>
+              <a
+                href="https://test.companis.org/"
+                class="projects__overlay-title"
+                >Companis - Nonprofit Website
+              </a>
+              <i class="fab fa-html5 projects__overlay-icon--html-companis"></i>
+              <i
+                class="fab fa-css3-alt projects__overlay-icon--css-companis"
+              ></i>
+              <i
+                class="fab fa-wordpress projects__overlay-icon--wordpress-companis"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <div class="projects__overlay-container">
+            <img
+              class="img-fluid img-thumbnail"
+              src="./images/Resized-Covid-app.jpg"
+              alt="covid-19 app"
+            />
+            <div class="projects__overlay">
+              <i class="fas fa-arrow-right projects__overlay-icon"></i>
 
+              <a
+                href="https://github.com/dtran5/covid19-cases"
+                class="projects__overlay-title"
+                >Covid-19 App
+              </a>
+              <i class="fab fa-html5 projects__overlay-icon--html"></i>
+              <i class="fab fa-css3-alt projects__overlay-icon--css"></i>
+              <i
+                class="fab fa-js-square projects__overlay-icon--javascript"
+              ></i>
+              <i class="fab fa-react projects__overlay-icon--react"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Toolkit-->
+    <section id="toolkit" class="toolkit">
+      <div class="container my-5">
+        <h3 class="text-center mb-5 toolkit__title">Technical Toolkit</h3>
+        <div class="row text-center mx-2 d-flex align-items-center">
+          <div class="col-lg col-md-3 col-4 mb-3">
+            <i class="fab fa-html5 fa-4x toolkit__html-icon"></i>
+          </div>
+          <div class="col-lg col-md-3 col-4 mb-3">
+            <i class="fab fa-css3-alt fa-4x toolkit__css-icon"></i>
+          </div>
+          <div class="col-lg col-md-3 col-4 mb-3">
+            <i class="fab fa-js-square fa-4x toolkit__js-icon"></i>
+          </div>
+          <div class="col-lg col-md-3 col-4 mb-3">
+            <i class="fab fa-react fa-4x toolkit__react-icon"></i>
+          </div>
+          <div class="col-lg col-md-3 col-4 mb-3">
+            <img
+              class="toolkit__firebase-icon"
+              src="./images/firebase-icon.svg"
+              alt="firebase-icon"
+            />
+          </div>
+          <div class="col-lg col-md-3 col-4 mb-3">
+            <img
+              class="toolkit__jest-icon"
+              src="./images/jest-icon.svg"
+              alt="jest-icon"
+            />
+          </div>
+          <div class="col-lg col-md-3 col-4 mb-3">
+            <i class="fab fa-node-js fa-4x toolkit__node-icon"></i>
+          </div>
+          <div class="col-lg col-md-3 col-4 mb-3">
+            <i
+              class="fab fa-wordpress-simple fa-4x toolkit__wordpress-icon"
+            ></i>
+          </div>
+          <div class="col-lg col-md-3 col-4 mb-3">
+            <i class="fab fa-sass fa-4x toolkit__sass-icon"></i>
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- Resume -->
     <section id="resume" class="resume">
       <div class="resume__content">
-          <h1 class="resume__header">Check out my resume!</h1>
-          <button type="button" class="btn btn-outline-light rounded-0 resume__button">Grab A Copy</button>
+        <h1 class="resume__header">Check out my resume!</h1>
+        <button
+          type="button"
+          class="btn btn-outline-light rounded-0 resume__button"
+        >
+          Grab A Copy
+        </button>
       </div>
       <div class="resume__overlay"></div>
-  </section>
+    </section>
+
+    <!--Self Improvement-->
+    <section id="improvement" class="improvement">
+      <h3 class="pt-5 text-center improvement__title">
+        Things I do to improve
+      </h3>
+      <div class="d-flex justify-content-center">
+        <div class="row mx-5">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <button
+              type="button"
+              class="btn btn-info improvement__btn mt-3"
+              id="improvement__btn-1"
+            >
+              Develop Productive Habits
+            </button>
+            <div
+              class="improvement__more-info mt-1"
+              id="improvement__more-info-1"
+            >
+              Building productive habits allows me to stay focused and maximize
+              my learning. The habits that I have formed have been essential
+              during my coding process and I heavily rely on them to help me
+              grow as a coder and person. A few of my habits:
+              <div
+                class="d-flex justify-content-center improvement__more-info--custom"
+              >
+                <ul class="improvement__unordered-list">
+                  <li>
+                    Get code involved everyday. Write, read, learn, talk, or
+                    play with code everyday. This keeps me thinking about it all
+                    of the time and helps me engrain things I have learned.
+                  </li>
+                  <li>Read books daily</li>
+                  <li>Exercise regularly</li>
+                </ul>
+              </div>
+              <blockquote class="improvement__quote mt-n4">
+                Habits are the compound interest of self-improvement. -James
+                Clear
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <button
+              type="button"
+              class="btn btn-info improvement__btn mt-3"
+              id="improvement__btn-2"
+            >
+              Student Mindset!
+            </button>
+            <div
+              class="improvement__more-info mt-1"
+              id="improvement__more-info-2"
+            >
+              One of the first lessons I learned as a coach was that I don't
+              know everything even if I think I do. I wasn't humble and as a
+              result it closed off my ability to learn. I felt like I knew all I
+              needed to and chose not to learn. I was quickly humbled and have
+              since worked to change my mindset. Be curious, listen, and don't
+              speak in absolutes. There is always much to be learned and many
+              points of views to be considered. Learning has now become a focus
+              of mine and one I embrace daily!
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <button
+              type="button"
+              class="btn btn-info improvement__btn mt-3"
+              id="improvement__btn-3"
+            >
+              Environment
+            </button>
+            <div
+              class="improvement__more-info mt-1"
+              id="improvement__more-info-3"
+            >
+              <p>
+                The environment I create for myself allows me to make my habits
+                easier to keep and avoid distractions. Simple tricks such as
+                leaving my code editor open, a book on my nightstand, articles I
+                am interested in reading open on my phone, or even my tv remote
+                in in a closed drawer all contribute to a more productive
+                environment. It allows me to associate my space with a good work
+                flow and limit possible distractions.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <button
+              type="button"
+              class="btn btn-info improvement__btn mt-3"
+              id="improvement__btn-4"
+            >
+              Hard Things Rule
+            </button>
+            <div
+              class="improvement__more-info mt-1"
+              id="improvement__more-info-4"
+            >
+              This is a rule I found from a book called Grit by Angela
+              Duckworth. I love the idea and have chosen to implement the rule.
+              The rule allows me to find consistency and continue learning and
+              growing, both professionally and personally. The rule has three
+              parts:
+              <ol>
+                <li>
+                  Pick an activity/skill/topic of my choice and actively learn
+                  and work on it each day. In my case, this is coding but I will
+                  find others to incorporate.
+                </li>
+                <li>
+                  No quitting outside of natural cycles or end dates. If I want
+                  to quit, not an issue but it needs to be at a natural
+                  endpoint.
+                </li>
+                <li>This is an activity of my choosing.</li>
+              </ol>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <button
+              type="button"
+              class="btn btn-info improvement__btn mt-3"
+              id="improvement__btn-5"
+            >
+              Feedback
+            </button>
+            <div
+              class="improvement__more-info mt-1"
+              id="improvement__more-info-5"
+            >
+              I believe that becoming an expert requires feedback from others.
+              Learning to embrace feedback isn't always easy but is something I
+              am working on. I choose to believe that those who provide me with
+              feedback have my best interest at heart and that I need to listen
+              and apply it productively. It doesn't always feel good but as long
+              as I can stay present and avoid being defensive then I can listen,
+              integrate that feedback and reflect it back with accountability.
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+            <button
+              type="button"
+              class="btn btn-info improvement__btn mt-3"
+              id="improvement__btn-6"
+            >
+              Practice Gratitude
+            </button>
+            <div
+              class="improvement__more-info mt-1"
+              id="improvement__more-info-6"
+            >
+              Appreciate what I have and be thankful for the opportunities I
+              have to learn to code. This keeps me humble and keeps me moving
+              forward. The opportunities I have been given and the people who
+              have helped me along the way are rare, reminding me to maximize my
+              chances and hopefully give back to others the same way my mentors
+              have helped me.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer id="footer" class="footer">
@@ -135,51 +453,82 @@
         <div class="row footer__row">
           <div class="col-md">
             <ul class="list-group list-group-horizontal">
-              <li class="list-group-item footer__icon footer__list-item--github">
+              <li
+                class="list-group-item footer__icon footer__list-item--github"
+              >
                 <a class="footer__link" href="https://github.com/dtran5">
                   <i class="fab fa-github fa-2x"></i>
                 </a>
               </li>
-              <li class="list-group-item footer__icon footer__list-item--linkedin">
-                <a class="footer__link" href="https://www.linkedin.com/in/dtran5/">
+              <li
+                class="list-group-item footer__icon footer__list-item--linkedin"
+              >
+                <a
+                  class="footer__link"
+                  href="https://www.linkedin.com/in/dtran5/"
+                >
                   <i class="fab fa-linkedin-in fa-2x"></i>
                 </a>
               </li>
-              <li class="list-group-item footer__icon footer__list-item--facebook">
-                <a class="footer__link" href="https://www.facebook.com/Dtran301">
+              <li
+                class="list-group-item footer__icon footer__list-item--facebook"
+              >
+                <a
+                  class="footer__link"
+                  href="https://www.facebook.com/Dtran301"
+                >
                   <i class="fab fa-facebook fa-2x"></i>
                 </a>
               </li>
-              <li class="list-group-item footer__icon footer__list-item--instagram">
-                <a class="footer__link" href="https://www.instagram.com/dantranman/">
+              <li
+                class="list-group-item footer__icon footer__list-item--instagram"
+              >
+                <a
+                  class="footer__link"
+                  href="https://www.instagram.com/dantranman/"
+                >
                   <i class="fab fa-instagram fa-2x"></i>
                 </a>
               </li>
-              <li class="list-group-item footer__icon footer__list-item--twitter">
+              <li
+                class="list-group-item footer__icon footer__list-item--twitter"
+              >
                 <a class="footer__link" href="https://twitter.com/DanTranMan">
                   <i class="fab fa-twitter fa-2x"></i>
                 </a>
               </li>
             </ul>
             <div class="footer__copyright">
-              <p><i class="far fa-copyright footer__icon--copyright"></i>Daniel Tran</p>
+              <p>
+                <i class="far fa-copyright footer__icon--copyright"></i>Daniel
+                Tran
+              </p>
             </div>
           </div>
         </div>
       </div>
     </footer>
+  </body>
 
-</body>
+  <!-- Smoothscroll Script -->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+  <!-- Bootstrap Scripts -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"
+  ></script>
 
-
-<!-- Smoothscroll Script -->
-<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
-<!-- Bootstrap Scripts -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-<!-- JS script -->
-<script src="/js/main.js"></script>
-
+  <!-- JS script -->
+  <script src="./js/main.js"></script>
 </html>
