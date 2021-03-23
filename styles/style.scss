@@ -108,10 +108,27 @@
     margin-bottom: 2rem;
   }
 
-  &__header {
+  &__title {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 2rem;
+  }
+
+  &__education-title {
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: black;
+  }
+
+  &__link:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
   }
 
   &__profile-container {
@@ -503,6 +520,33 @@
   }
   &__list-item--twitter:hover {
     color: #1da1f2;
+  }
+
+  &__tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  &__tooltip:hover .footer__tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &__tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
   }
 }
 
