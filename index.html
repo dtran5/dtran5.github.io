@@ -68,37 +68,19 @@
     </section>
 
     <!--About-->
-    <section id="about" class="about d-flex justify-content-center">
-      <!-- <div class="row d-flex justify-content-center"> -->
-      <div class="col-xl-8 col-lg-12 col-md-12">
-        <div class="about__header-container">
-          <h1 class="about__header">About Me</h1>
-        </div>
-        <div class="about__profile-container">
+    <section id="about" class="about">
+      <div class="row text-center d-flex align-items-start">
+        <div class="col-xl-6 col-lg-7">
+          <!-- <div class="about__header-container"> -->
+          <h1 class="about__title mb-2">About Me</h1>
+          <!-- </div> -->
+          <!-- <div class="about__profile-container"> -->
           <img
-            class="about__profile-pic"
+            class="about__profile-pic mb-3"
             src="./images/profile.jpg"
             alt="profile picture"
           />
-        </div>
-        <div class="about__content">
-          <!-- <p>
-              Hello! My name is Dan and I am a front-end web developer with a
-              new found passion for coding. As a former strength and
-              conditioning coach with a Master's in Sport Science, my desire to
-              code began a few months prior to the 2020 Covid-19 pandemic. With
-              declining interest and enthusiasm of coaching athletes, I made the
-              decision to pursue web development and make learning to code my
-              priority. The prospect of pursuing a career that allowed me to
-              work in an always rapidly developing field excited me. The
-              opportunity to develop streamlined software while always pushing
-              forward with advancements in technology by learning and obtaining
-              new knowledge presented challenges that I find enjoyable and never
-              monotonous! While the pandemic of 2020 is unfortunate, it provided
-              me an invaluable opportunity to pursue web development with no
-              looking back since!
-            </p> -->
-          <p>
+          <p class="mb-3">
             Hello! My name is Dan, web developer and student of code. As a
             former strength and conditioning coach with a Master's in Sport
             Science, I recently developed a curiosity for technology and code
@@ -114,6 +96,83 @@
             that I am so excited to continue with. At this point, my only regret
             has been not learning to code earlier!
           </p>
+        </div>
+        <div class="col-xl-6 col-lg-5 text-center">
+          <h1 class="about__title mb-2">Resume at a Glance</h1>
+          <div class="card text-center card-test">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active about__link"
+                    data-toggle="tab"
+                    aria-current="true"
+                    data-target="#formal-education"
+                    >Education</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link about__link"
+                    data-toggle="tab"
+                    aria-current="true"
+                    data-target="#professional-experience"
+                    >Professional Experience</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link about__link"
+                    data-toggle="tab"
+                    aria-current="true"
+                    data-target="#certifications"
+                    >Certifications</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="card-body tab-content">
+              <div id="formal-education" class="container tab-pane active text-left">
+                <h4 class="text-center mb-4">Formal Education</h4>
+                <p class="card-text">
+                  <h5 class="about__education-title">Master of Science, Sport Science and Coach Education - Strength and Conditioning</h5>
+                  <h6 class="mb-4">- East Tennessee State University, 2019</h6>
+                  <hr class="custom-hr mb-4">
+                  <h5 class="about__education-title">Bachelor of Science, Kinesiology</h5>
+                  <h6>- Western Washington University, 2015</h6>
+                </p>
+              </div>
+              <div id="professional-experience" class="container tab-pane text-left">
+                <h4 class="card-title text-center">Professional Experience</h4>
+                <p class="card-text">
+                  <h5 class="about__education-title">Athletic Performance Intern</h5>
+                  <h6 class="mb-4">- University of California, Los Angeles</h6>
+                  <hr class="custom-hr mb-4">
+                  <h5 class="about__education-title">Personal Trainer</h5>
+                  <h6 class="mb-4">- Transform 180</h6>
+                  <hr class="custom-hr mb-4">
+                  <h5 class="about__education-title">Strength and Conditioning Intern</h5>
+                  <h6 class="mb-4">- Western Washington University</h6>
+                  <hr class="custom-hr mb-4">
+                  <h5 class="about__education-title">Sport Performance Coach</h5>
+                  <h6 class="mb-2">- Excelerate Sport</h6>
+                </p>
+              </div>
+              <div id="certifications" class="container tab-pane text-left">
+                <h4 class="card-title text-center">Certifications</h4>
+                <p class="card-text">
+                  <h5 class="about__education-title">Certified Strength and Conditioning Specialist</h5>
+                  <h6 class="mb-4">- National Strength and Conditioning Association</h6>
+                  <hr class="custom-hr mb-4">
+                  <h5 class="about__education-title">Weightlifting Level 1 Coach</h5>
+                  <h6 class="mb-4">- USA Weightlifting</h6>
+                  <hr class="custom-hr mb-4">
+                  <h5 class="about__education-title">First Aid, Professional Rescuer CPR, AED</h5>
+                  <h6 class="mb-4">- American Heart Association</h6>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -181,7 +240,7 @@
             <div class="projects__overlay">
               <i class="fas fa-arrow-right projects__overlay-icon"></i>
               <a
-                href="https://test.companis.org/"
+                href="https://www.companis.org//"
                 class="projects__overlay-title"
                 >Companis - Nonprofit Website
               </a>
@@ -228,22 +287,29 @@
         <h3 class="text-center mb-5 toolkit__title">Technical Toolkit</h3>
         <div class="row text-center mx-2 d-flex align-items-center">
           <div class="col-lg col-md-3 col-4 mb-3">
-            <i class="fab fa-html5 fa-4x toolkit__html-icon"></i>
+            <i class="fab fa-html5 fa-4x toolkit__html-icon" title="HTML5"></i>
           </div>
           <div class="col-lg col-md-3 col-4 mb-3">
-            <i class="fab fa-css3-alt fa-4x toolkit__css-icon"></i>
+            <i class="fab fa-css3-alt fa-4x toolkit__css-icon" title="CSS"></i>
           </div>
           <div class="col-lg col-md-3 col-4 mb-3">
-            <i class="fab fa-js-square fa-4x toolkit__js-icon"></i>
+            <i
+              class="fab fa-js-square fa-4x toolkit__js-icon"
+              title="Javascript"
+            ></i>
           </div>
           <div class="col-lg col-md-3 col-4 mb-3">
-            <i class="fab fa-react fa-4x toolkit__react-icon"></i>
+            <i
+              class="fab fa-react fa-4x toolkit__react-icon"
+              title="Reactjs"
+            ></i>
           </div>
           <div class="col-lg col-md-3 col-4 mb-3">
             <img
               class="toolkit__firebase-icon"
               src="./images/firebase-icon.svg"
               alt="firebase-icon"
+              title="Firebase"
             />
           </div>
           <div class="col-lg col-md-3 col-4 mb-3">
@@ -251,18 +317,23 @@
               class="toolkit__jest-icon"
               src="./images/jest-icon.svg"
               alt="jest-icon"
+              title="Jest"
             />
           </div>
           <div class="col-lg col-md-3 col-4 mb-3">
-            <i class="fab fa-node-js fa-4x toolkit__node-icon"></i>
+            <i
+              class="fab fa-node-js fa-4x toolkit__node-icon"
+              title="Node.js"
+            ></i>
           </div>
           <div class="col-lg col-md-3 col-4 mb-3">
             <i
               class="fab fa-wordpress-simple fa-4x toolkit__wordpress-icon"
+              title="Wordpress"
             ></i>
           </div>
           <div class="col-lg col-md-3 col-4 mb-3">
-            <i class="fab fa-sass fa-4x toolkit__sass-icon"></i>
+            <i class="fab fa-sass fa-4x toolkit__sass-icon" title="SASS"></i>
           </div>
         </div>
       </div>
@@ -449,7 +520,7 @@
     <!-- Footer -->
     <footer id="footer" class="footer">
       <div class="footer__container">
-        <h3 class="footer__title">Contact</h3>
+        <h3 class="footer__title mt-5 mb-n3">Contact</h3>
         <div class="row footer__row">
           <div class="col-md">
             <ul class="list-group list-group-horizontal">
@@ -498,6 +569,30 @@
                 </a>
               </li>
             </ul>
+            <div class="input-group mb-3 mt-3">
+              <input
+                id="emailInput"
+                type="text"
+                class="form-control"
+                placeholder="Dan.tran301@gmail.com"
+                aria-label="Dan.tran301@gmail.com"
+                aria-describedby="basic-addon2"
+                value="Dan.Tran301@gmail.com"
+              />
+              <div class="input-group-append footer__tooltip">
+                <button
+                  onmouseout="outFunc()"
+                  onclick="copyEmail()"
+                  class="btn btn-outline-info"
+                  type="button"
+                >
+                  <span class="footer__tooltip-text" id="myTooltip"
+                    >Copy to clipboard</span
+                  >
+                  Copy My Email!
+                </button>
+              </div>
+            </div>
             <div class="footer__copyright">
               <p>
                 <i class="far fa-copyright footer__icon--copyright"></i>Daniel

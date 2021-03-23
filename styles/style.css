@@ -109,10 +109,27 @@
   margin-bottom: 2rem;
 }
 
-.about__header {
+.about__title {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 2rem;
+}
+
+.about__education-title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.about__link {
+  text-decoration: none;
+  color: black;
+}
+
+.about__link:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
 }
 
 .about__profile-container {
@@ -545,5 +562,33 @@
 
 .footer__list-item--twitter:hover {
   color: #1da1f2;
+}
+
+.footer__tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.footer__tooltip:hover .footer__tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.footer__tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 /*# sourceMappingURL=style.css.map */
