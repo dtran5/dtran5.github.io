@@ -30,15 +30,9 @@
   transition: all 0.5s ease-in-out;
 }
 
-// .navbar-custom-medium {
-//     padding: 100px 105px;
-//     background: transparent;
-//     transition: all 0.5s ease-in-out;
-// }
-
 .navbar-custom-medium-active {
   padding: 10px 25px;
-  height: 4rem;
+
   background: transparent;
   transition: all 0.5s ease-in-out;
 }
@@ -342,6 +336,10 @@
     color: #3c873a;
   }
 
+  &__bootstrap-icon {
+    color: #563d7c;
+  }
+
   &__wordpress-icon {
     color: #21759b;
   }
@@ -382,6 +380,11 @@
   }
 
   &__node-icon:hover {
+    transition: all 0.5s ease;
+    filter: grayscale(100%);
+  }
+
+  &__bootstrap-icon:hover {
     transition: all 0.5s ease;
     filter: grayscale(100%);
   }

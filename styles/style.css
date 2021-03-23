@@ -29,7 +29,6 @@
 
 .navbar-custom-medium-active {
   padding: 10px 25px;
-  height: 4rem;
   background: transparent;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -350,6 +349,10 @@
   color: #3c873a;
 }
 
+.toolkit__bootstrap-icon {
+  color: #563d7c;
+}
+
 .toolkit__wordpress-icon {
   color: #21759b;
 }
@@ -404,6 +407,13 @@
 }
 
 .toolkit__node-icon:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.toolkit__bootstrap-icon:hover {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   -webkit-filter: grayscale(100%);
