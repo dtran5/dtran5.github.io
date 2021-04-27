@@ -69,8 +69,32 @@
           align-items: center;
 }
 
+.intro__container {
+  max-width: 350px;
+}
+
 .intro__content {
   z-index: 1;
+}
+
+.intro__link {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  position: relative;
+  z-index: 10;
+  font-size: 1.2rem;
+}
+
+.intro__link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.intro__profile-pic {
+  height: 250px;
+  border-radius: 5%;
+  z-index: 10;
+  position: relative;
 }
 
 .intro__overlay {
@@ -86,13 +110,20 @@
   text-transform: uppercase;
   color: white;
   font-weight: 300;
-  font-size: 5rem;
-  margin-bottom: 1rem;
+  font-size: 4rem;
+  position: relative;
+  z-index: 10;
 }
 
 .intro__description {
   color: white;
   text-align: center;
+}
+
+.intro__button {
+  position: relative;
+  z-index: 10;
+  font-weight: 500;
 }
 
 .about {
@@ -144,6 +175,8 @@
 .about__profile-pic {
   height: 250px;
   border-radius: 5%;
+  z-index: 10;
+  position: relative;
 }
 
 .about__content {
@@ -176,7 +209,6 @@
 }
 
 .projects {
-  background-color: #f5f5f5;
   padding: 50px;
   text-align: center;
 }
@@ -235,7 +267,7 @@
 
 .projects__overlay-icon--html {
   top: 85%;
-  left: 35%;
+  left: 30%;
   -webkit-transform: translate(-70%, -50%);
           transform: translate(-70%, -50%);
   position: absolute;
@@ -245,7 +277,7 @@
 
 .projects__overlay-icon--css {
   top: 85%;
-  left: 45%;
+  left: 40%;
   -webkit-transform: translate(-70%, -50%);
           transform: translate(-70%, -50%);
   position: absolute;
@@ -255,7 +287,7 @@
 
 .projects__overlay-icon--javascript {
   top: 85%;
-  left: 55%;
+  left: 50%;
   -webkit-transform: translate(-70%, -50%);
           transform: translate(-70%, -50%);
   position: absolute;
@@ -265,7 +297,17 @@
 
 .projects__overlay-icon--react {
   top: 85%;
-  left: 65%;
+  left: 60%;
+  -webkit-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.projects__overlay-icon--node {
+  top: 85%;
+  left: 70%;
   -webkit-transform: translate(-70%, -50%);
           transform: translate(-70%, -50%);
   position: absolute;
@@ -312,6 +354,12 @@
   opacity: 0.8;
 }
 
+.toolkit {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+}
+
 .toolkit__title {
   text-transform: uppercase;
   font-weight: 400;
@@ -338,6 +386,7 @@
 }
 
 .toolkit__firebase-icon {
+  margin-left: -15px;
   width: 100px;
 }
 
@@ -347,6 +396,15 @@
 
 .toolkit__node-icon {
   color: #3c873a;
+}
+
+.toolkit__mongodb-icon {
+  margin-left: -12px;
+  width: 90px;
+}
+
+.toolkit__express-icon {
+  width: 120px;
 }
 
 .toolkit__bootstrap-icon {
@@ -413,7 +471,21 @@
           filter: grayscale(100%);
 }
 
+.toolkit__mongodb-icon:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
 .toolkit__bootstrap-icon:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.toolkit__express-icon:hover {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   -webkit-filter: grayscale(100%);
