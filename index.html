@@ -41,7 +41,7 @@
       <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active ml-auto">
-            <a class="nav-link mr-2" href="#intro"
+            <a class="nav-link mr-2" href="#about"
               >About<span class="sr-only">(current)</span></a
             >
           </li>
@@ -60,134 +60,49 @@
 
     <!-- Introduction -->
     <section id="intro" class="intro">
-      <div class="intro__content">
-        <h1 class="intro__header">Hi, I'm Dan</h1>
-        <p class="intro__description">Web Developer and Lifelong Student</p>
+      <div class="text-center intro__container">
+        <div class="intro__content">
+          <h1 class="intro__header">Hi, I'm Dan</h1>
+          <img
+          class="intro__profile-pic mb-3"
+          src="./images/profile-pic.jpg"
+          alt="profile picture"
+        />
+        <a href="https://drive.google.com/file/d/1wR4yqUmDTcdTwWq_im1z3IxpCOAtEpzB/view?usp=sharing" class="btn btn-outline-light intro__button" role="button" aria-pressed="true">View my resume</a>
+        </div>
       </div>
       <div class="intro__overlay"></div>
     </section>
 
-    <!--About-->
-    <section id="about" class="about">
-      <div class="row text-center d-flex align-items-start">
-        <div class="col-xl-6 col-lg-7">
-          <!-- <div class="about__header-container"> -->
-          <h1 class="about__title mb-2">About Me</h1>
-          <!-- </div> -->
-          <!-- <div class="about__profile-container"> -->
-          <img
-            class="about__profile-pic mb-3"
-            src="./images/profile-pic.jpg"
-            alt="profile picture"
-          />
-          <p class="mb-3">
-            Hello! My name is Dan, web developer and student of code. As a
-            former strength and conditioning coach, I recently developed a curiosity for technology and code during my time at UCLA. The computer science department had developed a simple application for athlete fatigue management, providing coaches with valuable information that took almost no effort to collect. Athletes could easily enter information such as soreness of specific muscles, external stressors, hours of sleep, and the program even collected countermovement jump heights daily and sent them directly to the coaches. The application, while simple, streamlined such a crucial part of a coach's job and I found myself curious about how these programs were created and what else could be done to improve our coaching thought process. My limited understanding of the program's inner workings led
-            me to begin learning to code. I fully dove in without previous knowledge and while it
-            started out as overwhelming I took it one step at a time,
-            stayed consistent, and with help from fellow coders I have been
-            able to build a solid foundation. I was
-            determined to learn and along the way my curiosity turned to genuine
-            enjoyment. The process has been a humbling experience but one
-            that I am so excited to continue. At this point, my only regret
-            has been not learning to code earlier!
-          </p>
-          <!-- <p>
-            Hello! My name is Dan, web developer and student of code. As a former strength and conditioning coach with a Master's in Sport Science, I recently developed a curiosity for technology and code prior to the Covid-19 pandemic. Technology has become essential in daily life and my limited understanding of its inner workings drove me to learn more about it. Diving in without previous knowledge started out as overwhelming but by taking it one step at a time, staying consistent, and with help from fellow coders I have been able to build a solid foundation. I was determined to learn and along the way my curiosity turned to genuine enjoyment. I have chosen to forgo coaching and fully embrace learning to code. The process has been a humbling experience but one that I am so excited to continue. At this point, my only regret has been not learning to code earlier!
-          </p> -->
-        </div>
-        <div class="col-xl-6 col-lg-5 text-center">
-          <h1 class="about__title mb-2">Resume at a Glance</h1>
-          <div class="card text-center card-test">
-            <div class="card-header">
-              <ul class="nav nav-tabs card-header-tabs">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active about__link"
-                    data-toggle="tab"
-                    aria-current="true"
-                    data-target="#formal-education"
-                    >Education</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link about__link"
-                    data-toggle="tab"
-                    aria-current="true"
-                    data-target="#professional-experience"
-                    >Professional Experience</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link about__link"
-                    data-toggle="tab"
-                    aria-current="true"
-                    data-target="#certifications"
-                    >Certifications</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="card-body tab-content">
-              <div id="formal-education" class="container tab-pane active text-left">
-                <h4 class="text-center mb-4">Formal Education</h4>
-                <p class="card-text">
-                  <h5 class="about__education-title">Master of Science, Sport Science and Coach Education - Strength and Conditioning</h5>
-                  <h6 class="mb-4">- East Tennessee State University, 2019</h6>
-                  <hr class="custom-hr mb-4">
-                  <h5 class="about__education-title">Bachelor of Science, Kinesiology</h5>
-                  <h6>- Western Washington University, 2015</h6>
-                  <hr class="custom-hr mb-4">
-                </p>
-                  <br>
-                  <h4 class="text-center mb-4">Informal Education</h4>
-                  <p>
-                    <h5 class="about__education-title">Web Developer</h5>
-                    <h6>- Self study, December 2019 - Current</h6>
-                  </p>
-              </div>
-              <div id="professional-experience" class="container tab-pane text-left">
-                <h4 class="card-title text-center">Professional Experience</h4>
-                <p class="card-text">
-                  <h5 class="about__education-title">Athletic Performance Intern</h5>
-                  <h6 class="mb-4">- University of California, Los Angeles</h6>
-                  <hr class="custom-hr mb-4">
-                  <h5 class="about__education-title">Personal Trainer</h5>
-                  <h6 class="mb-4">- Transform 180</h6>
-                  <hr class="custom-hr mb-4">
-                  <h5 class="about__education-title">Strength and Conditioning Intern</h5>
-                  <h6 class="mb-4">- Western Washington University</h6>
-                  <hr class="custom-hr mb-4">
-                  <h5 class="about__education-title">Sport Performance Coach</h5>
-                  <h6 class="mb-2">- Excelerate Sport</h6>
-                </p>
-              </div>
-              <div id="certifications" class="container tab-pane text-left">
-                <h4 class="card-title text-center">Certifications</h4>
-                <p class="card-text">
-                  <h5 class="about__education-title">Certified Strength and Conditioning Specialist</h5>
-                  <h6 class="mb-4">- National Strength and Conditioning Association</h6>
-                  <hr class="custom-hr mb-4">
-                  <h5 class="about__education-title">Weightlifting Level 1 Coach</h5>
-                  <h6 class="mb-4">- USA Weightlifting</h6>
-                  <hr class="custom-hr mb-4">
-                  <h5 class="about__education-title">First Aid, Professional Rescuer CPR, AED</h5>
-                  <h6 class="mb-4">- American Heart Association</h6>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- My Projects  -->
-    <section id="projects" class="projects container-fluid">
+     <!-- My Projects  -->
+     <section id="projects" class="projects container-fluid">
       <h1 class="projects__title">My projects</h1>
       <p class="projects__subheader">(more on the way!)</p>
       <div class="row text-center">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+          <div class="projects__overlay-container">
+            <img
+              class="img-fluid img-thumbnail"
+              src="./images/mern-workout-log-resized.jpg"
+              alt="lift-weights-app"
+            />
+            <div class="projects__overlay">
+              <i class="fas fa-arrow-right projects__overlay-icon"></i>
+              <a
+                href="https://github.com/dtran5/mern-workout-log/"
+                class="projects__overlay-title"
+                >Workout Log - MERN
+              </a>
+              <i class="fab fa-html5 projects__overlay-icon--html"></i>
+              <i class="fab fa-css3-alt projects__overlay-icon--css"></i>
+              <i
+                class="fab fa-js-square projects__overlay-icon--javascript"
+              ></i>
+              <i class="fab fa-react projects__overlay-icon--react"></i>
+              <i class="fab fa-node-js projects__overlay-icon--node"></i>
+            </div>
+          </div>
+        </div>
         <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
           <div class="projects__overlay-container">
             <img
@@ -200,7 +115,7 @@
               <a
                 href="https://github.com/dtran5/liftweights/"
                 class="projects__overlay-title"
-                >Weight Training App
+                >Weight Training App - Firebase backend/db
               </a>
               <i class="fab fa-html5 projects__overlay-icon--html"></i>
               <i class="fab fa-css3-alt projects__overlay-icon--css"></i>
@@ -292,25 +207,25 @@
       <div class="container my-5">
         <h3 class="text-center mb-5 toolkit__title">Technical Toolkit</h3>
         <div class="row text-center mx-2 d-flex align-items-center">
-          <div class="col-lg col-md-3 col-4 mb-3">
+          <div class="col-lg-1 col-md-3 col-4 mb-3">
             <i class="fab fa-html5 fa-4x toolkit__html-icon" title="HTML5"></i>
           </div>
-          <div class="col-lg col-md-3 col-4 mb-3">
+          <div class="col-lg-1 col-md-3 col-4 mb-3">
             <i class="fab fa-css3-alt fa-4x toolkit__css-icon" title="CSS"></i>
           </div>
-          <div class="col-lg col-md-3 col-4 mb-3">
+          <div class="col-lg-1 col-md-3 col-4 mb-3">
             <i
               class="fab fa-js-square fa-4x toolkit__js-icon"
               title="Javascript"
             ></i>
           </div>
-          <div class="col-lg col-md-3 col-4 mb-3">
+          <div class="col-lg-1  col-md-3 col-4 mb-3">
             <i
               class="fab fa-react fa-4x toolkit__react-icon"
               title="Reactjs"
             ></i>
           </div>
-          <div class="col-lg col-md-3 col-4 mb-3">
+          <div class="col-lg-1 col-md-3 col-4 mb-3">
             <img
               class="toolkit__firebase-icon"
               src="./images/firebase-icon.svg"
@@ -318,7 +233,7 @@
               title="Firebase"
             />
           </div>
-          <div class="col-lg col-md-3 col-4 mb-3">
+          <div class="col-lg-1 col-md-3 col-4 mb-3">
             <img
               class="toolkit__jest-icon"
               src="./images/jest-icon.svg"
@@ -326,30 +241,161 @@
               title="Jest"
             />
           </div>
-          <div class="col-lg col-md-3 col-4 mb-3">
+          <div class="col-lg-1 col-md-3 col-4 mb-3">
             <i
               class="fab fa-node-js fa-4x toolkit__node-icon"
               title="Node.js"
             ></i>
           </div>
-          <div class="col-lg col-md-3 col-4 mb-3">
+          
+          <div class="col-lg-1 col-md-3 col-4 mb-3">
             <i
               class="fab fa-bootstrap fa-4x toolkit__bootstrap-icon"
               title="Bootstrap"
             ></i>
           </div>
-          <div class="col-lg col-md-3 col-4 mb-3">
+          <div class="col-lg-1 col-md-3 col-4 mb-3">
+            <img
+              class="toolkit__mongodb-icon"
+              src="./images/mongodb-logo.png"
+              alt="mongoDB-icon"
+              title="MongoDB"
+            />
+          </div>
+          <div class="col-lg-1 col-md-3 col-4 mb-3">
             <i
               class="fab fa-wordpress-simple fa-4x toolkit__wordpress-icon"
               title="Wordpress"
             ></i>
           </div>
-          <div class="col-lg col-md-3 col-4 mb-3">
+          <div class="col-lg-1 col-md-3 col-4 mb-3">
             <i class="fab fa-sass fa-4x toolkit__sass-icon" title="SASS"></i>
+          </div>
+          <div class="col-lg-1 col-md-3 col-4 mb-3">
+            <img
+              class="toolkit__express-icon"
+              src="./images/express_js-161052138fa79136c0474521906b55e2.png"
+              alt="Express-icon"
+              title="Express"
+            />
           </div>
         </div>
       </div>
     </section>
+
+    <!--About-->
+    <section id="about" class="about">
+      <div class="row text-center d-flex align-items-start">
+        <div class="col-xl-6 col-lg-7">
+          <h1 class="about__title mb-2">About Me</h1>
+          <!-- <img
+            class="about__profile-pic mb-3"
+            src="./images/profile-pic.jpg"
+            alt="profile picture"
+          /> -->
+          <p class="mb-3">
+            Hello! My name is Dan, web developer and student of code. As a
+            former strength and conditioning coach, I recently developed a curiosity for technology and code during my time at UCLA. The computer science department had developed a simple application for athlete fatigue management, providing coaches with valuable information that took almost no effort to collect. Athletes could easily enter information such as soreness of specific muscles, external stressors, hours of sleep, and the program even collected countermovement jump heights daily and sent them directly to the coaches. The application, while simple, streamlined such a crucial part of a coach's job and I found myself curious about how these programs were created and what else could be done to improve our coaching thought process. My limited understanding of the program's inner workings led
+            me to begin learning to code. I fully dove in without previous knowledge and while it
+            started out as overwhelming I took it one step at a time,
+            stayed consistent, and with help from fellow coders I have been
+            able to build a solid foundation. I was
+            determined to learn and along the way my curiosity turned to genuine
+            enjoyment. The process has been a humbling experience but one
+            that I am so excited to continue. At this point, my only regret
+            has been not learning to code earlier!
+          </p>
+        </div>
+        <div class="col-xl-6 col-lg-5 text-center">
+          <h1 class="about__title mb-2">Resume at a Glance</h1>
+          <div class="card text-center card-test">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active about__link"
+                    data-toggle="tab"
+                    aria-current="true"
+                    data-target="#formal-education"
+                    >Education</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link about__link"
+                    data-toggle="tab"
+                    aria-current="true"
+                    data-target="#professional-experience"
+                    >Professional Experience</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link about__link"
+                    data-toggle="tab"
+                    aria-current="true"
+                    data-target="#certifications"
+                    >Certifications</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="card-body tab-content">
+              <div id="formal-education" class="container tab-pane active text-left">
+                <h4 class="text-center mb-4">Formal Education</h4>
+                <p class="card-text">
+                  <h5 class="about__education-title">Master of Science, Sport Science and Coach Education - Strength and Conditioning</h5>
+                  <h6 class="mb-4">- East Tennessee State University, 2019</h6>
+                  <hr class="custom-hr mb-4">
+                  <h5 class="about__education-title">Bachelor of Science, Kinesiology</h5>
+                  <h6>- Western Washington University, 2015</h6>
+                  <hr class="custom-hr mb-4">
+                </p>
+                  <br>
+                  <h4 class="text-center mb-4">Informal Education</h4>
+                  <p>
+                    <h5 class="about__education-title">Web Developer</h5>
+                    <h6>- Self study, December 2019 - Current</h6>
+                  </p>
+              </div>
+              <div id="professional-experience" class="container tab-pane text-left">
+                <h4 class="card-title text-center">Professional Experience</h4>
+                <p class="card-text">
+                  <h5 class="about__education-title">Athletic Performance Intern</h5>
+                  <h6 class="mb-4">- University of California, Los Angeles</h6>
+                  <hr class="custom-hr mb-4">
+                  <h5 class="about__education-title">Personal Trainer</h5>
+                  <h6 class="mb-4">- Transform 180</h6>
+                  <hr class="custom-hr mb-4">
+                  <h5 class="about__education-title">Strength and Conditioning Intern</h5>
+                  <h6 class="mb-4">- Western Washington University</h6>
+                  <hr class="custom-hr mb-4">
+                  <h5 class="about__education-title">Sport Performance Coach</h5>
+                  <h6 class="mb-2">- Excelerate Sport</h6>
+                </p>
+              </div>
+              <div id="certifications" class="container tab-pane text-left">
+                <h4 class="card-title text-center">Certifications</h4>
+                <p class="card-text">
+                  <h5 class="about__education-title">Certified Strength and Conditioning Specialist</h5>
+                  <h6 class="mb-4">- National Strength and Conditioning Association</h6>
+                  <hr class="custom-hr mb-4">
+                  <h5 class="about__education-title">Weightlifting Level 1 Coach</h5>
+                  <h6 class="mb-4">- USA Weightlifting</h6>
+                  <hr class="custom-hr mb-4">
+                  <h5 class="about__education-title">First Aid, Professional Rescuer CPR, AED</h5>
+                  <h6 class="mb-4">- American Heart Association</h6>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+    
 
     <!-- Resume -->
     <section id="resume" class="resume">
