@@ -270,9 +270,9 @@
   font-size: 2.5rem;
 }
 
-.projects__overlay-icon--html {
+.projects__overlay-icon--html-weather, .projects__overlay-icon--html-liftweights, .projects__overlay-icon--html-covid {
   top: 85%;
-  left: 30%;
+  left: 35%;
   -webkit-transform: translate(-70%, -50%);
           transform: translate(-70%, -50%);
   position: absolute;
@@ -280,9 +280,9 @@
   font-size: 1.5rem;
 }
 
-.projects__overlay-icon--css {
+.projects__overlay-icon--css-weather, .projects__overlay-icon--css-liftweights, .projects__overlay-icon--css-covid {
   top: 85%;
-  left: 40%;
+  left: 45%;
   -webkit-transform: translate(-70%, -50%);
           transform: translate(-70%, -50%);
   position: absolute;
@@ -290,9 +290,9 @@
   font-size: 1.5rem;
 }
 
-.projects__overlay-icon--javascript {
+.projects__overlay-icon--javascript-weather, .projects__overlay-icon--javascript-liftweights, .projects__overlay-icon--javascript-covid {
   top: 85%;
-  left: 50%;
+  left: 55%;
   -webkit-transform: translate(-70%, -50%);
           transform: translate(-70%, -50%);
   position: absolute;
@@ -300,9 +300,9 @@
   font-size: 1.5rem;
 }
 
-.projects__overlay-icon--react {
+.projects__overlay-icon--react-weather, .projects__overlay-icon--react-liftweights, .projects__overlay-icon--react-covid {
   top: 85%;
-  left: 60%;
+  left: 65%;
   -webkit-transform: translate(-70%, -50%);
           transform: translate(-70%, -50%);
   position: absolute;
@@ -310,7 +310,7 @@
   font-size: 1.5rem;
 }
 
-.projects__overlay-icon--node {
+.projects__overlay-icon--node-workout {
   top: 85%;
   left: 70%;
   -webkit-transform: translate(-70%, -50%);
@@ -320,7 +320,7 @@
   font-size: 1.5rem;
 }
 
-.projects__overlay-icon--html-companis {
+.projects__overlay-icon--html-companis, .projects__overlay-icon--html-crypto, .projects__overlay-icon--javascript-workout {
   top: 85%;
   left: 40%;
   -webkit-transform: translate(-70%, -50%);
@@ -330,7 +330,7 @@
   font-size: 1.5rem;
 }
 
-.projects__overlay-icon--css-companis {
+.projects__overlay-icon--css-companis, .projects__overlay-icon--css-crypto, .projects__overlay-icon--react-workout {
   top: 85%;
   left: 50%;
   -webkit-transform: translate(-70%, -50%);
@@ -340,7 +340,7 @@
   font-size: 1.5rem;
 }
 
-.projects__overlay-icon--wordpress-companis {
+.projects__overlay-icon--wordpress-companis, .projects__overlay-icon--react-crypto, .projects__overlay-icon--node-workout {
   top: 85%;
   left: 60%;
   -webkit-transform: translate(-70%, -50%);
@@ -395,7 +395,7 @@
   width: 100px;
 }
 
-.toolkit__jest-icon {
+.toolkit__typescript-icon {
   width: 60px;
 }
 
@@ -462,7 +462,7 @@
           filter: grayscale(100%);
 }
 
-.toolkit__jest-icon:hover {
+.toolkit__typescript-icon:hover {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   -webkit-filter: grayscale(100%);

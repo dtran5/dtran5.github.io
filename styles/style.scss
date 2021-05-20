@@ -256,43 +256,51 @@
     font-size: 2.5rem;
   }
 
-  &__overlay-icon--html {
+  &__overlay-icon--html-weather,
+  &__overlay-icon--html-liftweights,
+  &__overlay-icon--html-covid {
     top: 85%;
-    left: 30%;
+    left: 35%;
     transform: translate(-70%, -50%);
     position: absolute;
     color: white;
     font-size: 1.5rem;
   }
 
-  &__overlay-icon--css {
+  &__overlay-icon--css-weather,
+  &__overlay-icon--css-liftweights,
+  &__overlay-icon--css-covid {
     top: 85%;
-    left: 40%;
+    left: 45%;
     transform: translate(-70%, -50%);
     position: absolute;
     color: white;
     font-size: 1.5rem;
   }
 
-  &__overlay-icon--javascript {
+  &__overlay-icon--javascript-weather,
+  &__overlay-icon--javascript-liftweights,
+  &__overlay-icon--javascript-covid {
     top: 85%;
-    left: 50%;
+    left: 55%;
     transform: translate(-70%, -50%);
     position: absolute;
     color: white;
     font-size: 1.5rem;
   }
 
-  &__overlay-icon--react {
+  &__overlay-icon--react-weather,
+  &__overlay-icon--react-liftweights,
+  &__overlay-icon--react-covid {
     top: 85%;
-    left: 60%;
+    left: 65%;
     transform: translate(-70%, -50%);
     position: absolute;
     color: white;
     font-size: 1.5rem;
   }
 
-  &__overlay-icon--node {
+  &__overlay-icon--node-workout {
     top: 85%;
     left: 70%;
     transform: translate(-70%, -50%);
@@ -301,7 +309,9 @@
     font-size: 1.5rem;
   }
 
-  &__overlay-icon--html-companis {
+  &__overlay-icon--html-companis,
+  &__overlay-icon--html-crypto,
+  &__overlay-icon--javascript-workout {
     top: 85%;
     left: 40%;
     transform: translate(-70%, -50%);
@@ -310,7 +320,9 @@
     font-size: 1.5rem;
   }
 
-  &__overlay-icon--css-companis {
+  &__overlay-icon--css-companis,
+  &__overlay-icon--css-crypto,
+  &__overlay-icon--react-workout {
     top: 85%;
     left: 50%;
     transform: translate(-70%, -50%);
@@ -319,7 +331,9 @@
     font-size: 1.5rem;
   }
 
-  &__overlay-icon--wordpress-companis {
+  &__overlay-icon--wordpress-companis,
+  &__overlay-icon--react-crypto,
+  &__overlay-icon--node-workout {
     top: 85%;
     left: 60%;
     transform: translate(-70%, -50%);
@@ -378,7 +392,7 @@
     width: 100px;
   }
 
-  &__jest-icon {
+  &__typescript-icon {
     width: 60px;
   }
 
@@ -436,7 +450,7 @@
     filter: grayscale(100%);
   }
 
-  &__jest-icon:hover {
+  &__typescript-icon:hover {
     transition: all 0.5s ease;
     filter: grayscale(100%);
   }
